@@ -68,8 +68,8 @@ If you find this repository useful for your research, please consider citing the
 @article{singh2023choice,
   title     = {Choice Models and Permutation Invariance: Demand Estimation in Differentiated Products Markets},
   author    = {Singh, Amandeep and Liu, Ye and Yoganarasimhan, Hema},
-  journal   = {arXiv preprint arXiv:2307.07090},
-  year      = {2025}
+  journal   = {Marketing Science},
+  year      = {Forthcoming}
 }
 ```
 ---
