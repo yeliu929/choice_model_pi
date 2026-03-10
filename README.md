@@ -73,4 +73,4 @@ If you find this repository useful for your research, please consider citing the
 }
 ```
 ---
-Contact: yeliu@uw.edu
+Contact: yeliu@gatech.edu
