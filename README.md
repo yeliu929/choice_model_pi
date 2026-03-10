@@ -8,22 +8,39 @@ This repository contains the official code for the paper
 
 ## Overview
 
-To reproduce the results, you only need to run the Jupyter notebook:
-
-📓 **`Inference.ipynb`** — This notebook provides a tutorial that replicates the main experiment from Section 3.4 of the paper. It covers both the **plug-in** and **debiased** estimation methods.
+This repository contains two parts:
+1) A tutorial on how to use the method proposed in the paper: Inference.ipynb — This notebook provides a tutorial that replicates the main experiment from Section 3.4 of the paper. It covers both the plug-in and debiased estimation methods. Users can replace the generated data with real data to apply both the plug-in and debiased methods proposed in the paper.
 
 All necessary functions are defined in the following supporting scripts:
 
-| File / folder | Description |
+| File / Folder | Description |
 |---------------|-------------|
-| `prediction.py` | Contains data-generation routines, the permutation-invariant neural network, training logic, and plug-in evaluation helpers. |
-| `debiase.py`    | Implements the debiasing procedure: moment construction, α-network training, and final θ inference. |
+| `prediction.py` | Contains standard data-generation routines, the permutation-invariant neural network, training logic, and plug-in evaluation helpers. |
+| `debiase.py`    | Implements the debiasing procedure: moment construction, training for debiased term, and final inference. |
+|  `results/` | A directory to store intermediate results from 100 random simulation draws of inference. |
+
+
+2) Replication files for all the tables and figures in the paper and the web appendix. `Replication/`
+
+In this folder, each notebook corresponds to a specific table or figure, as indicated in the notebook names.
+
+/src contains the source files for the necessary functions used in the numerical experiments and empirical analysis, we detailed below. 
+
+| File / Folder | Description |
+|---------------|-------------|
+| `data_generation.py` | Contains various data-generation processes, including RCL with inattention, RCL with non-linear utility, RCL and MNL with fixed effects, random coefficients that follow a bimodal mixture distribution, and prices with reduced variance, etc.|
+| `neural_network.py`    | Contains the neural network architectures of our proposed method and the non-parametric method used as a comparison in the paper.|
+| `estimation.py`    |Includes the training and evaluation procedures for all methods regarding market share and elasticity estimation in the paper.|
+| `train_varying_products.py`    |  Includes the training and evaluation procedures of the proposed method that accommodate the issue of varying products in each market. This code is used to run the empirical analysis on the U.S. automobile dataset.|
+
+Result_Tables/ is used to store intermediate results for the numerical experiments. We provide these files to reproduce the tables presented in the paper, as running each numerical experiment may take a long time. Users can also generate similar tables by running the simulations themselves. 
+
+Note: Running the simulations on different hardware or software environments may lead to slightly different numerical results due to randomness in training and system-level differences. However, these minor variations should not affect the qualitative findings or the main conclusions of the paper.
 
 
 In addition,
   - `requirements.txt` lists all required Python packages. 
-  - `results/` is a directory to store intermediate results from 100 random simulation draws. 
-
+  
 ---
 
 ## Quick start
