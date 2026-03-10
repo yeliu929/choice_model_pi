@@ -2,7 +2,7 @@
 
 This repository contains the official code for the paper  
 **"Choice Models and Permutation Invariance: Demand Estimation in Differentiated Products Markets"**  
-Singh, Amandeep and Liu, Ye and Yoganarasimhan, Hema
+Amandeep Singh, Ye Liu, and Hema Yoganarasimhan
 Marketing Science, Forthcoming. 
 
 ---
