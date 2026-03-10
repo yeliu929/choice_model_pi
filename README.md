@@ -9,7 +9,7 @@ This repository contains the official code for the paper
 ## Overview
 
 This repository contains two parts:
-1) A tutorial on how to use the method proposed in the paper: Inference.ipynb — This notebook provides a tutorial that replicates the main experiment from Section 3.4 of the paper. It covers both the plug-in and debiased estimation methods. Users can replace the generated data with real data to apply both the plug-in and debiased methods proposed in the paper.
+1) A tutorial on how to use the method proposed in the paper: `Inference.ipynb` — This notebook provides a tutorial that replicates the main experiment from Section 3.4 of the paper. It covers both the plug-in and debiased estimation methods. Users can replace the generated data with real data to apply both the plug-in and debiased methods proposed in the paper.
 
 All necessary functions are defined in the following supporting scripts:
 
@@ -23,16 +23,16 @@ All necessary functions are defined in the following supporting scripts:
 2) Replication files for all the tables and figures in the paper and the web appendix. `Replication/`
 
 In this folder, each notebook corresponds to a specific table or figure, as indicated in the notebook names.
-* 1_Table2.ipynb: Standard RCL and MNL data generations. 
-* 2_Table3_4.ipynb: RCL with inattention and non-linear utility. 
-* 3_Figure2.ipynb: A figure related to RCL with inattention. 
-* 4_Table5.ipynb: Counterfactual new product demand estimation. 
-* 5_Table6_Figure3.ipynb: Debiased and inference. 
-* 6_Table7_Figure4_AppendixM_FigureA3A4_TableA10.ipynb: Emprical analysis using US Automobile data
-* 7_Table8.ipynb: The estimation of sub-group price elasticities. 
-* 8_Appendix_G_H_I_J_Table_A5A6A7A8.ipynb: Data generations with fixed effects. 
-* 9_FigureA1.ipynb: Best response price. 
-* 10_Appendix_F_Table_A4.ipynb: Demostration on the effect of not addressing endogeneity. 
+* `1_Table2.ipynb`: Standard RCL and MNL data generations. 
+* `2_Table3_4.ipynb`: RCL with inattention and non-linear utility. 
+* `3_Figure2.ipynb`: A figure related to RCL with inattention. 
+* `4_Table5.ipynb`: Counterfactual new product demand estimation. 
+* `5_Table6_Figure3.ipynb`: Debiased and inference. 
+* `6_Table7_Figure4_AppendixM_FigureA3A4_TableA10.ipynb`: Emprical analysis using US Automobile data
+* `7_Table8.ipynb`: The estimation of sub-group price elasticities. 
+* `8_Appendix_G_H_I_J_Table_A5A6A7A8.ipynb`: Data generations with fixed effects. 
+* `9_FigureA1.ipynb`: Best response price. 
+* `10_Appendix_F_Table_A4.ipynb`: Demostration on the effect of not addressing endogeneity. 
 
 /src contains the source files for the necessary functions used in the numerical experiments and empirical analysis, we detailed below. 
 
