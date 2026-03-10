@@ -2,7 +2,8 @@
 
 This repository contains the official code for the paper  
 **"Choice Models and Permutation Invariance: Demand Estimation in Differentiated Products Markets"**  
-[SSRN Working Paper #4508227](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4508227)
+Singh, Amandeep and Liu, Ye and Yoganarasimhan, Hema
+Marketing Science, Forthcoming. 
 
 ---
 
