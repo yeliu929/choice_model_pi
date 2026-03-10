@@ -34,7 +34,7 @@ In this folder, each notebook corresponds to a specific table or figure, as indi
 * `9_FigureA1.ipynb`: Best response price. 
 * `10_Appendix_F_Table_A4.ipynb`: Demostration on the effect of not addressing endogeneity. 
 
-/src contains the source files for the necessary functions used in the numerical experiments and empirical analysis, we detailed below. 
+`/src` contains the source files for the necessary functions used in the numerical experiments and empirical analysis, we detailed below. 
 
 | File / Folder | Description |
 |---------------|-------------|
@@ -47,10 +47,6 @@ Result_Tables/ is used to store intermediate results for the numerical experimen
 
 Note: Running the simulations on different hardware or software environments may lead to slightly different numerical results due to randomness in training and system-level differences. However, these minor variations should not affect the qualitative findings or the main conclusions of the paper.
 
-
-In addition,
-  - `requirements.txt` lists all required Python packages. 
-  
 ---
 
 ## Quick start
