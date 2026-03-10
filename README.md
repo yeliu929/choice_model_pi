@@ -27,9 +27,9 @@ In this folder, each notebook corresponds to a specific table or figure, as indi
 * `2_Table3_4.ipynb`: RCL with inattention and non-linear utility. 
 * `3_Figure2.ipynb`: A figure related to RCL with inattention. 
 * `4_Table5.ipynb`: Counterfactual new product demand estimation. 
-* `5_Table6_Figure3.ipynb`: Debiased and inference. 
+* `5_Table6_Figure3.ipynb`: Debiase and inference. 
 * `6_Table7_Figure4_AppendixM_FigureA3A4_TableA10.ipynb`: Emprical analysis using US Automobile data
-* `7_Table8.ipynb`: The estimation of sub-group price elasticities. 
+* `7_Table8.ipynb`: The estimation of sub-group price elasticities. (Used the blp_data_deep.pickle as input)
 * `8_Appendix_G_H_I_J_Table_A5A6A7A8.ipynb`: Data generations with fixed effects. 
 * `9_FigureA1.ipynb`: Best response price. 
 * `10_Appendix_F_Table_A4.ipynb`: Demostration on the effect of not addressing endogeneity. 
@@ -43,7 +43,7 @@ In this folder, each notebook corresponds to a specific table or figure, as indi
 | `estimation.py`    |Includes the training and evaluation procedures for all methods regarding market share and elasticity estimation in the paper.|
 | `train_varying_products.py`    |  Includes the training and evaluation procedures of the proposed method that accommodate the issue of varying products in each market. This code is used to run the empirical analysis on the U.S. automobile dataset.|
 
-Result_Tables/ is used to store intermediate results for the numerical experiments. We provide these files to reproduce the tables presented in the paper, as running each numerical experiment may take a long time. Users can also generate similar tables by running the simulations themselves. 
+`Result_Tables/` is used to store intermediate results for the numerical experiments. We provide these files to reproduce the tables presented in the paper, as running each numerical experiment may take a long time. Users can also generate similar tables by running the simulations themselves. 
 
 Note: Running the simulations on different hardware or software environments may lead to slightly different numerical results due to randomness in training and system-level differences. However, these minor variations should not affect the qualitative findings or the main conclusions of the paper.
 
