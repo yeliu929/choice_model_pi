@@ -34,10 +34,6 @@ In this folder, each notebook corresponds to a specific table or figure, as indi
 * 9_FigureA1.ipynb: Best response price. 
 * 10_Appendix_F_Table_A4.ipynb: Demostration on the effect of not addressing endogeneity. 
 
-
-.ipynb_checkpoints
-Untitled.ipynb
-
 /src contains the source files for the necessary functions used in the numerical experiments and empirical analysis, we detailed below. 
 
 | File / Folder | Description |
